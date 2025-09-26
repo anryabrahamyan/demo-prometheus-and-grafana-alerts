@@ -5,7 +5,7 @@ services:
     ports:
       - 127.0.0.1:25:25
     env_file:
-      - ./environments/smtp.env
+      - ./environments/smtp.env.example
   postgres:
     image: postgres:17
     container_name: postgres
